@@ -1,0 +1,52 @@
+{
+ "go": false,
+ "failed": [
+  "sideways",
+  "length",
+  "time"
+ ],
+ "measures": {
+  "coverage": 1,
+  "gcSidewaysKm": 12.62377993694864,
+  "libSidewaysKm": 12.291183670907504,
+  "gcLengthPct": 0.28116058394577204,
+  "libLengthPct": 0.31656203728104293,
+  "activeTimeMin": 9.490559639485674,
+  "libTimeMin": 9.52699107055664,
+  "zippedBytes": 591
+ },
+ "libraryPairs": 14,
+ "buildLegs": 126,
+ "buildPairs": 14,
+ "builtFrom": [
+  "v2025.03.26-planes-readsb-prod-0",
+  "v2025.07.30-planes-readsb-prod-0",
+  "v2025.11.26-planes-readsb-staging-0"
+ ],
+ "holdoutDays": [
+  "2025.05.21",
+  "2025.08.27"
+ ],
+ "holdoutLegs": 84,
+ "coveredLegs": 84,
+ "scoredLegs": 84,
+ "skippedFewerThan8GridPoints": 0,
+ "rawBytes": 953,
+ "byRegion": {
+  "US": {
+   "legs": 36,
+   "covered": 36,
+   "coverage": 1
+  },
+  "Europe": {
+   "legs": 24,
+   "covered": 24,
+   "coverage": 1
+  },
+  "other": {
+   "legs": 24,
+   "covered": 24,
+   "coverage": 1
+  }
+ }
+}

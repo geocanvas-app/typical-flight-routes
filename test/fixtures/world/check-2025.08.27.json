@@ -1,0 +1,20 @@
+{
+ "day": "2025.08.27",
+ "release": "v2025.08.27-planes-readsb-staging-0",
+ "right": 21,
+ "wrong": 4,
+ "rejected": 59,
+ "noTruth": 0,
+ "counts": {
+  "traces": 45,
+  "jets": 44,
+  "segments": 44,
+  "grounded": 42,
+  "legs": 43,
+  "region North America": 19,
+  "region Europe": 12,
+  "region Middle East": 6,
+  "region Oceania/Pacific": 6,
+  "callsign": 1
+ }
+}

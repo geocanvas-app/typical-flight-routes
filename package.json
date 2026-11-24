@@ -1,0 +1,19 @@
+{
+  "name": "typical-flight-routes",
+  "version": "2026.11.0",
+  "description": "Typical flight routes per airport pair as open data (ODbL 1.0), with the decoder and the build pipeline (Apache-2.0)",
+  "type": "module",
+  "private": true,
+  "license": "SEE LICENSE IN README.md",
+  "author": "Kai Raschke <hello@geocanvas.app> (https://geocanvas.fly)",
+  "repository": {"type": "git", "url": "https://github.com/geocanvas-app/typical-flight-routes"},
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "test:python": "python -I -B test/test_extract_world.py && python -I -B test/test_extract_gate.py",
+    "verify": "node src/cli.mjs verify data/2026.11/typical-routes.json 83d2c851e56645824d4e5a13414e2e85b75c07fff835b7139c113096664ebac8"
+  },
+  "dependencies": {
+    "geographiclib-geodesic": "2.2.0"
+  }
+}

@@ -1,0 +1,16 @@
+# Downloaded archive days (several GB each) and everything the pipeline derives from them stay local.
+work/
+archive/
+*.tar
+*.tar.aa
+*.tar.ab
+*.part
+*.etag
+download-ledger.json
+legs-*.jsonl
+node_modules/
+__pycache__/
+*.pyc
+
+# ...except the small synthetic fixtures of the tests.
+!test/fixtures/**

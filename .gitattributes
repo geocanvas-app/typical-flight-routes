@@ -1,0 +1,3 @@
+# The released data is hashed: never rewrite its line endings.
+data/** -text
+test/fixtures/** -text

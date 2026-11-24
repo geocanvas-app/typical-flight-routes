@@ -1,0 +1,20 @@
+{
+ "day": "2025.03.26",
+ "release": "v2025.03.26-planes-readsb-prod-0",
+ "right": 19,
+ "wrong": 4,
+ "rejected": 61,
+ "noTruth": 0,
+ "counts": {
+  "traces": 45,
+  "jets": 44,
+  "segments": 44,
+  "grounded": 42,
+  "legs": 43,
+  "region North America": 19,
+  "region Europe": 12,
+  "region Middle East": 6,
+  "region Oceania/Pacific": 6,
+  "callsign": 1
+ }
+}
